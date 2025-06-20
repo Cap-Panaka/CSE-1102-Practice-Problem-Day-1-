@@ -1,0 +1,11 @@
+//Write a C program to find the square of an integer number.
+
+#include <stdio.h>
+int main(){
+    int myNum,result;
+    printf("Enter the number : ");
+    scanf("%d",&myNum);
+    result=myNum*myNum;
+    printf("Square of the number : %d",result);
+    return 0;
+}

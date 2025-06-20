@@ -1,0 +1,12 @@
+//Write a C program to convert a lowercase character to uppercase.
+
+#include <stdio.h>
+int main(){
+    char lowerCase,upperCase;
+    printf("Enter the lowercase letter : ");
+    scanf("%c",&lowerCase);
+    upperCase= lowerCase -32;
+    printf("Uppercase : %c",upperCase);
+    return 0;
+    
+}

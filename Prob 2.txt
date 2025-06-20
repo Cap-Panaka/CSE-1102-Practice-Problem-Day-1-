@@ -1,0 +1,17 @@
+/*Write a C program to enter the radius of a circle and find its diameter, circumference and area. */
+#include <stdio.h>
+
+int main() {
+    const float PI= 3.1416;
+    float radius,diameter,circumference,area;
+    printf("Enter the radius: ");
+    scanf("%f",&radius);
+    diameter=2*radius;
+    printf("Diameter of the circle: %.2f\n",diameter);
+    circumference=2* PI *radius;
+    printf("Circumference of the circle: %.2f\n",circumference);
+    area=PI *radius *radius;
+    printf("Area of the circle: %.2f\n",area);
+    return 0;
+    
+}

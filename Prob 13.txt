@@ -1,0 +1,12 @@
+//Write a C program to calculate the area of an equilateral triangle.
+
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float side,area;
+    printf("Enter the side of the equilateral triangle: ");
+    scanf("%f",&side);
+    area=side*side*sqrt(3)/4;
+    printf("Area of the equilateral triangle is: %.2f",area);
+    return 0;
+}
