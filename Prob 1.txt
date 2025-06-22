@@ -6,8 +6,8 @@ int main(){
     printf("Enter the length in centimeter: ");
     scanf("%f",&length);
     float meter=length/100;
-    printf("Length in meter: %.2f\n",meter);
+    printf("Length in meter: %g\n",meter);
     float kilometer= length / 100000;
-    printf("Length in kilometer: %.2f\n",kilometer);
+    printf("Length in kilometer: %g\n",kilometer);
     return 0;
 }
